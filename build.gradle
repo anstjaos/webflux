@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.netty:netty-resolver-dns-classes-macos:4.1.92.Final'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     compileOnly 'org.projectlombok:lombok'
